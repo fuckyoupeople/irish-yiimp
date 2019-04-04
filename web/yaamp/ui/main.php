@@ -141,7 +141,7 @@ function showPageFooter()
 	$year = date("Y", time());
 
 	echo "<p>&copy; $year ".YAAMP_SITE_NAME.' - '.
-		'<a href="http://github.com/tpruvot/yiimp">Open source Project</a></p>';
+		'<a href="http://github.com/tpruvot/yiimp">Open source Project</a> - <a href="https://github.com/bubasik/yiimp-yespowerr16-ytn">yiimp-ytn</a> forked by <a href="http://yenten-pool.info/">Yenten-Pool.info</a></p>';
 
 	echo '</div><!-- footer -->';
 }
