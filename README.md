@@ -2,6 +2,19 @@
 
 #yiimp - yaamp fork
 
+# yiimp-ytn (Yiimp fork with Yespower and YespowerR16)
+
+Bash install script Yiimp-ytn for ubuntu 16.04 - https://github.com/bubasik/yiimp-install-script-on-ubuntu/
+
+How to install the yiimp pool on the ubuntu 16.04 server and configure yenten coin - http://www.bubasik.com/how-to-install-the-yiimp-pool-on-the-ubuntu-16-04-server-and-configure-yenten-coin-stratum-yescryptr16/
+
+
+**Recommended hosting VDS (it was tested) - [https://sprintbox.ru](https://sprintbox.ru/promo/SPBP20011655.html "https://sprintbox.ru")**
+
+- - - - - - - - - - - - - - - - - - 
+
+
+
 WARNINGS
 - Use at your own risks.
 - Usage of this software requires abilities with sysadmin, database admin, coin daemons, and sometimes a bit of programming. Running a production pool can literally be more work than a full-time job.
