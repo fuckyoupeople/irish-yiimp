@@ -75,6 +75,8 @@ function yaamp_get_algos()
 		'yescrypt',
 		'yescryptR16',
 		'yescryptR32',
+		'yespower',
+		'yespowerR16',
 		'whirlpool',
 		'zr5',
 	);
@@ -134,6 +136,8 @@ function yaamp_get_algo_norm($algo)
 		'yescrypt'	=> 1.0,
 		'yescryptR16'	=> 1.0,
 		'yescryptR32'	=> 1.0,
+		'yespower'	=> 1.0,
+		'yespowerR16'	=> 1.0,
 		'zr5'		=> 1.0,
 	);
 
@@ -216,6 +220,8 @@ function getAlgoColors($algo)
 		'yescrypt'	=> '#e0d0e0',
 		'yescryptR16'	=> '#e2d0e2',
 		'yescryptR32'	=> '#e2d0d2',
+		'yespower'	=> '#e2d0d2',
+		'yespowerR16' 	=> '#e2d0d2',
 		'zr5'		=> '#d0b0d0',
 
 		'MN'		=> '#ffffff', // MasterNode Earnings
@@ -298,6 +304,8 @@ function getAlgoPort($algo)
 		'yescrypt'	=> 6233,
 		'yescryptR16'	=> 6333,
 		'yescryptR32'	=> 6343,
+		'yespower'	=> 6234,
+		'yespowerR16'	=> 6236,
 		'bastion'	=> 6433,
 		'hsr'		=> 7433,
 		'phi'		=> 8333,
