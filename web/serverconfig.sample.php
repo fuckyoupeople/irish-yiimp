@@ -15,30 +15,30 @@ define('YAAMP_PRODUCTION', true);
 define('YAAMP_RENTAL', true);
 define('YAAMP_LIMIT_ESTIMATE', false);
 
-define('YAAMP_FEES_MINING', 0.5);
+define('YAAMP_FEES_MINING', 1);
 define('YAAMP_FEES_EXCHANGE', 2);
 define('YAAMP_FEES_RENTING', 2);
 define('YAAMP_TXFEE_RENTING_WD', 0.002);
-define('YAAMP_PAYMENTS_FREQ', 3*60*60);
-define('YAAMP_PAYMENTS_MINI', 0.001);
+define('YAAMP_PAYMENTS_FREQ', 8*60*60);
+define('YAAMP_PAYMENTS_MINI', 0.0025);
 
 define('YAAMP_ALLOW_EXCHANGE', false);
 define('YIIMP_PUBLIC_EXPLORER', true);
-define('YIIMP_PUBLIC_BENCHMARK', false);
-define('YIIMP_FIAT_ALTERNATIVE', 'EUR'); // USD is main
+define('YIIMP_PUBLIC_BENCHMARK', true);
+define('YIIMP_FIAT_ALTERNATIVE', 'USD'); # USD is main
 
 define('YAAMP_USE_NICEHASH_API', false);
 
-define('YAAMP_BTCADDRESS', '1Auhps1mHZQpoX4mCcVL8odU81VakZQ6dR');
-define('YAAMP_SITE_URL', 'yiimp.ccminer.org');
-define('YAAMP_STRATUM_URL', YAAMP_SITE_URL); // change if your stratum server is on a different host
-define('YAAMP_SITE_NAME', 'YiiMP');
-define('YAAMP_ADMIN_EMAIL', 'yiimp@spam.la');
-define('YAAMP_ADMIN_IP', ''); // samples: "80.236.118.26,90.234.221.11" or "10.0.0.1/8"
+define('YAAMP_BTCADDRESS', '199Ki8SmeY8B8PSh1uvUA1oNyRdwcbcGwW');
+define('YAAMP_SITE_URL', 'myshamrocks.com');
+define('YAAMP_STRATUM_URL', YAAMP_SITE_URL); # change if your stratum server is on a different host
+define('YAAMP_SITE_NAME', 'Shamrocks-n-ShilleighliesPool');
+define('YAAMP_ADMIN_EMAIL', 'matty@shamrocks.xyz');
+define('YAAMP_ADMIN_IP', ''); // samples: "24.217.124.96,108.206.221.4" or "10.24.96.3./8"
 define('YAAMP_ADMIN_WEBCONSOLE', true);
 define('YAAMP_CREATE_NEW_COINS', true);
 define('YAAMP_NOTIFY_NEW_COINS', false);
-define('YAAMP_DEFAULT_ALGO', 'x11');
+define('YAAMP_DEFAULT_ALGO', 'neo');
 
 define('YAAMP_USE_NGINX', false);
 
@@ -68,14 +68,14 @@ define('EXCH_STOCKSEXCHANGE_KEY', '');
 define('EXCH_AUTO_WITHDRAW', 0.3);
 
 // nicehash keys deposit account & amount to deposit at a time
-define('NICEHASH_API_KEY','521c254d-8cc7-4319-83d2-ac6c604b5b49');
-define('NICEHASH_API_ID','9205');
-define('NICEHASH_DEPOSIT','3J9tapPoFCtouAZH7Th8HAPsD8aoykEHzk');
-define('NICEHASH_DEPOSIT_AMOUNT','0.01');
+define('NICEHASH_API_KEY','00000000-0000-0000-0000-000000000000');
+define('NICEHASH_API_ID','0000');
+define('NICEHASH_DEPOSIT','0000000000000000000000000');
+define('NICEHASH_DEPOSIT_AMOUNT','0.00');
 
 
 $cold_wallet_table = array(
-	'1C23KmLeCaQSLLyKVykHEUse1R7jRDv9j9' => 0.10,
+	'199Ki8SmeY8B8PSh1uvUA1oNyRdwcbcGwW' => 0.10,
 );
 
 // Sample fixed pool fees
